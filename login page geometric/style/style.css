@@ -1,0 +1,202 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ff69b4;
+}
+
+.section-container-geometric {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+.transform-skew-position {
+    width: 130px;
+    height: 450px;
+    background: #a6a6a6;
+    z-index: -1;
+    position: absolute;
+    margin-left: -16em;
+    transform: skewY(-30deg);
+    margin-top: -4.8em;
+}
+
+.section-container-geometric .transform-form-geometric {
+    width: 410px;
+    height: 450px;
+    background: #fff;
+    transform: rotateY(-20deg);
+}
+
+.section-container-geometric .transform-form-geometric .user-login {
+    margin: 1.5em 3em;
+}
+
+.section-container-geometric .transform-form-geometric .user-login h4 {
+    color: black;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section-container-geometric .transform-form-geometric .username {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5em 1.2em;
+}
+
+.section-container-geometric .transform-form-geometric .username label {
+    color: #0f52ba;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    transform: scale(0.8);
+    margin-left: -1.8em;
+}
+
+.section-container-geometric .transform-form-geometric .username .input-username {
+    display: flex;
+    align-items: center;
+    margin-top: 1px;
+}
+
+.section-container-geometric .transform-form-geometric .username .input-username .icon {
+    width: 31px;
+    height: 31px;
+    background: #0f52ba;
+    color: #fff;
+    text-align: center;
+    border: 3px solid #0f52ba;
+    z-index: 1;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    margin-left: 218px;
+    border-radius: 3px;
+}
+
+.section-container-geometric .transform-form-geometric .username .input-username input {
+    width: 250px;
+    height: 31px;
+    border: 3px solid #0f52ba;
+    background: none;
+    outline: none;
+    border-radius: 3px;
+}
+
+.section-container-geometric .transform-form-geometric .password {
+    display: flex;
+    flex-direction: column;
+    margin: 2em 1.2em;
+}
+
+.section-container-geometric .transform-form-geometric .password label {
+    color: #0f52ba;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    transform: scale(0.8);
+    margin-left: -1.8em;
+}
+
+.section-container-geometric .transform-form-geometric .input-password {
+    display: flex;
+    align-items: center;
+    margin-top: 1px;
+}
+
+.section-container-geometric .transform-form-geometric .input-password input {
+    width: 250px;
+    height: 31px;
+    border: 3px solid #0f52ba;
+    background: none;
+    outline: none;
+    border-radius: 3px;
+}
+
+.section-container-geometric .transform-form-geometric .input-password .icon {
+    width: 31px;
+    height: 31px;
+    background: #0f52ba;
+    color: #fff;
+    text-align: center;
+    border: 3px solid #0f52ba;
+    z-index: 1;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    margin-left: 218px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.section-container-geometric .transform-form-geometric .flex-buttons-adlia {
+    display: flex;
+    margin: 5.5em 3em;
+}
+
+.section-container-geometric .transform-form-geometric .flex-buttons-adlia button {
+    width: 100px;
+    height: 30px;
+    background: #0f52ba;
+    border: 1px solid #0f52ba;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    border-radius: 5px;
+    margin: 0em 5px;
+    cursor: pointer;
+}
+
+.section-container-geometric .transform-form-geometric .flex-buttons-adlia .signup {
+    margin: 0em 1px;
+}
+
+.section-container-geometric .transform-form-geometric .flex-buttons-adlia .signup > a {
+    color: #0f52ba;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+
+.section-container-geometric .transform-skew-zIndex {
+    width: 130px;
+    height: 450px;
+    background: #a6a6a6;
+    position: absolute;
+    z-index: 2;
+    transform: skewY(-30deg);
+    margin-left: 256px;
+    margin-top: 75px;
+}
+
+.section-container-geometric .transform-form-geometric .username #Error_username {
+    text-align: left;
+    padding: 4px 1px;
+    margin: 5px 0px;
+    background: rgba(255, 0, 0, 0.578);
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    border: 2px solid red;
+    border-radius: 5px;
+    display: none;
+}
+
+.section-container-geometric .transform-form-geometric .password #Error_Password {
+    text-align: left;
+    padding: 4px 1px;
+    margin: 5px 0px;
+    background: rgba(255, 0, 0, 0.578);
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    border: 2px solid red;
+    border-radius: 5px;
+    display: none;
+}
